@@ -9,7 +9,7 @@ const Wishlist = require('./database/Wishlist')
 const Lists = require('./database/Lists')
 const UserLists = require('./database/UserLists')
 const WatchedMovies = require('./database/WatchedMovies')
-const OpenAI = require('openai');
+const OpenAI = require('openai/index.mjs');
 
 
 app.use(express.json());
